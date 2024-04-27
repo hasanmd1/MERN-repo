@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="User authentication and UI changes fixed with shadcn-ui">
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="user authentication and database update fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +97,7 @@
       <updated>1714099987752</updated>
       <workItem from="1714099989537" duration="1230000" />
       <workItem from="1714136903905" duration="5359000" />
-      <workItem from="1714205522878" duration="10430000" />
+      <workItem from="1714205522878" duration="10843000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -155,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714216192265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714224548591</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714224548591</updated>
+    </task>
+    <task id="LOCAL-00008" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714224977693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714224977693</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +184,7 @@
     <MESSAGE value="Setting routes and layouts" />
     <MESSAGE value="Setting Authentication and homepage" />
     <MESSAGE value="User authentication and UI changes fixed with shadcn-ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="User authentication and UI changes fixed with shadcn-ui" />
+    <MESSAGE value="user authentication and database update fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="user authentication and database update fixed" />
   </component>
 </project>
