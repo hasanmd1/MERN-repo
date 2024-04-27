@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="Setting Authentication and homepage">
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MobileNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MobileNav.tsx" afterDir="false" />
+    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="User authentication and UI changes fixed with shadcn-ui">
+      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,10 @@
     &quot;accountId&quot;: &quot;2fd8995b-cd1c-4a3a-9e95-f20c5513873f&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -96,7 +105,7 @@
       <updated>1714099987752</updated>
       <workItem from="1714099989537" duration="1230000" />
       <workItem from="1714136903905" duration="5359000" />
-      <workItem from="1714205522878" duration="5683000" />
+      <workItem from="1714205522878" duration="10430000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -122,7 +131,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714213855019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="User authentication and UI changes fixed with shadcn-ui">
+      <option name="closed" value="true" />
+      <created>1714216134068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714216134068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="User authentication and UI changes fixed with shadcn-ui">
+      <option name="closed" value="true" />
+      <created>1714216145005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714216145005</updated>
+    </task>
+    <task id="LOCAL-00006" summary="User authentication and UI changes fixed with shadcn-ui">
+      <option name="closed" value="true" />
+      <created>1714216192265</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714216192265</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting routes and layouts" />
     <MESSAGE value="Setting Authentication and homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting Authentication and homepage" />
+    <MESSAGE value="User authentication and UI changes fixed with shadcn-ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="User authentication and UI changes fixed with shadcn-ui" />
   </component>
 </project>
