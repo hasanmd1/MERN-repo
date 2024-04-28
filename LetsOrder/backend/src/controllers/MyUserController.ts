@@ -21,6 +21,34 @@ const createdCurrentUser = async (req: Request, res: Response) => {
     }
 }
 
+const updatedCurrentUser = async (req: Request, res: Response) => {
+    try {
+        const {auth0Id, name, addressLine1, city, country} = req.body;
+        const updatedUser = await User.findById(req.userId);
+
+        if (!updatedUser) {
+            return res.status(404).json({message: "User not found"});
+        }
+
+        updatedUser.name = name;
+        updatedUser.addressLine1 = addressLine1;
+        updatedUser.city = city;
+        updatedUser.country = country;
+
+        await updatedUser.save();
+
+
+
+        return res.status(200).json(updatedUser);
+    }
+    catch (err) {
+        console.log(err);
+        return res.status(500).json({message: "Error updating user"});
+    }
+}
+
+
 export default {
-    createdCurrentUser
+    createdCurrentUser,
+    updatedCurrentUser,
 };

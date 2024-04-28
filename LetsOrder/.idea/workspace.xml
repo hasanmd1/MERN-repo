@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="user authentication and database update fixed" />
+    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="user authentication and database update fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/MyUserController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/MyUserController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/MyUserRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/MyUserRoute.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -36,10 +46,10 @@
     &quot;accountId&quot;: &quot;2fd8995b-cd1c-4a3a-9e95-f20c5513873f&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -98,6 +108,8 @@
       <workItem from="1714099989537" duration="1230000" />
       <workItem from="1714136903905" duration="5359000" />
       <workItem from="1714205522878" duration="11056000" />
+      <workItem from="1714260925947" duration="2616000" />
+      <workItem from="1714339653894" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -171,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714224996061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714260986344</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714260986344</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
