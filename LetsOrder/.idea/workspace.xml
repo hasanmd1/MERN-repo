@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="user authentication and database update fixed">
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/validation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1714136903905" duration="5359000" />
       <workItem from="1714205522878" duration="11056000" />
       <workItem from="1714260925947" duration="2616000" />
-      <workItem from="1714339653894" duration="1026000" />
+      <workItem from="1714339653894" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -199,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714340454161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714340839390</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714340839390</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
