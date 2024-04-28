@@ -1,0 +1,28 @@
+import {body} from "express-validator";
+
+export const validateMyUserRequest = [
+    body("name")
+        .isString()
+        .notEmpty()
+        .withMessage("Name must be a string"),
+    // body("auth0Id")
+    //     .isString()
+    //     .notEmpty()
+    //     .withMessage("auth0Id must be a string"),
+    // body("email")
+    //     .isString()
+    //     .notEmpty()
+    //     .withMessage("Email must be a string"),
+    body("addressLine1")
+        .isString()
+        .notEmpty()
+        .withMessage("AddressLine1 must be a string"),
+    body("city")
+        .isString()
+        .notEmpty()
+        .withMessage("City must be a string"),
+    body("country")
+        .isString()
+        .notEmpty()
+        .withMessage("Country must be a string"),
+]
