@@ -25,7 +25,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -121,7 +123,7 @@
       <workItem from="1714205522878" duration="11056000" />
       <workItem from="1714260925947" duration="2616000" />
       <workItem from="1714339653894" duration="8706000" />
-      <workItem from="1714411100380" duration="9263000" />
+      <workItem from="1714411100380" duration="10896000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -275,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714427389723</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714431086897</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714431086897</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
