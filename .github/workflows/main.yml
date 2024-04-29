@@ -18,11 +18,11 @@ jobs:
       - name: Install dependencies
         run: npm install && npm install shadcn-ui
 
-      - name: Build Frontend
-        run: npm run build --prefix LetsOrder/frontend
-
       - name: Build Backend
         run: npm run build --prefix LetsOrder/backend
+        
+      - name: Build Frontend
+        run: npm run build --prefix LetsOrder/frontend
 
   deploy:
     runs-on: ubuntu-latest
