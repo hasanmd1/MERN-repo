@@ -1,2 +1,12 @@
 name: CI/CD pipeline
 
+on:
+  push: 
+    branches: main
+
+jobs:
+  build:
+  test:
+  analysis:
+  deploy:
+
