@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="user authentication and database update fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controllers/MyUserController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/MyUserController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/middleware/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/MyUserApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/MyUserApi.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +121,7 @@
       <workItem from="1714205522878" duration="11056000" />
       <workItem from="1714260925947" duration="2616000" />
       <workItem from="1714339653894" duration="8706000" />
-      <workItem from="1714411100380" duration="5965000" />
+      <workItem from="1714411100380" duration="9263000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -261,7 +251,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714347683324</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714422311276</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714422311276</updated>
+    </task>
+    <task id="LOCAL-00018" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714422344050</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714422344051</updated>
+    </task>
+    <task id="LOCAL-00019" summary="user authentication and database update fixed">
+      <option name="closed" value="true" />
+      <created>1714427389723</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714427389723</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
