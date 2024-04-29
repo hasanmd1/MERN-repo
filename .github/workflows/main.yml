@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install && npx install shadcn-ui@latest && npm install react-dom
+        run: npm install && npm install shadcn-ui@latest && npm install react-dom
 
       - name: Build Backend
         run: npm run build --prefix LetsOrder/backend
