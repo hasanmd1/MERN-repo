@@ -19,10 +19,10 @@ jobs:
         run: npm install
 
       - name: Build Frontend
-        run: npm run build --prefix MongoDB-Express-React-Node.js-projects/LetsOrder/frontend
+        run: npm run build --prefix LetsOrder/frontend
 
       - name: Build Backend
-        run: npm run build --prefix MongoDB-Express-React-Node.js-projects/LetsOrder/backend
+        run: npm run build --prefix LetsOrder/backend
 
   deploy:
     runs-on: ubuntu-latest
@@ -38,7 +38,7 @@ jobs:
           MONGODB_CONNECTION_STRING: ${{ secrets.MONGODB_CONNECTION_STRING }}
 
         run: |
-          cd MongoDB-Express-React-Node.js-projects/LetsOrder/backend
+          cd LetsOrder/backend
           render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
 
       - name: Deploy Frontend to Render.com
@@ -50,5 +50,5 @@ jobs:
           VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
           VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
         run: |
-          cd MongoDB-Express-React-Node.js-projects/LetsOrder/frontend
+          cd LetsOrder/frontend
           render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
