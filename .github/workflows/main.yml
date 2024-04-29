@@ -42,13 +42,13 @@ jobs:
         render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
 
       - name: Deploy Frontend to Render.com
-      env:
-        RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
-        VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
-        VITE_AUTH0_AUDIENCE: ${{ secrets.VITE_AUTH0_AUDIENCE }}
-        VITE_AUTH0_CALLBACK_URL: ${{ secrets.VITE_AUTH0_CALLBACK_URL }}
-        VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
-        VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
-      run: |
-        cd MongoDB-Express-React-Node.js-projects/LetsOrder/frontend
-        render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
+        env:
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+          VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL }}
+          VITE_AUTH0_AUDIENCE: ${{ secrets.VITE_AUTH0_AUDIENCE }}
+          VITE_AUTH0_CALLBACK_URL: ${{ secrets.VITE_AUTH0_CALLBACK_URL }}
+          VITE_AUTH0_CLIENT_ID: ${{ secrets.VITE_AUTH0_CLIENT_ID }}
+          VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
+        run: |
+          cd MongoDB-Express-React-Node.js-projects/LetsOrder/frontend
+          render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
