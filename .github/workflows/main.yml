@@ -16,8 +16,7 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install react-router-dom && npm install jsx-runtime && npm install shadcn-ui 
-          && npm install auth0 && npm install react-query && npm install
+        run: npm install react-router-dom jsx-runtime shadcn-ui auth0 react react-dom tailwind && npm install react-query && npm install
 
       - name: Build Backend
         run: npm run build --prefix LetsOrder/backend
