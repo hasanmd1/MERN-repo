@@ -13,14 +13,7 @@ jobs:
 
       - name: Install Homebrew
         run: |
-          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-          | brew update --force --quiet
-
-
-      - name: Render cli
-        run: brew install render
-
+          sudo apt install snapd | sudo snapd install render
 
       - name: Install Node.js
         uses: actions/setup-node@v2
