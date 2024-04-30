@@ -26,15 +26,14 @@
     "react-dom": "^18.3.0",
     "react-hook-form": "^7.51.3",
     "react-query": "^3.39.3",
-    "sonner": "^1.4.41",
-    "tailwindcss-animate": "^1.0.5",
-    "zod": "^3.23.4",
     "react-router-dom": "^6.23.0",
     "shadcn-ui": "^0.2.3",
+    "sonner": "^1.4.41",
     "tailwindcss": "^3.4.3",
-    "tsc": "^2.0.4",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.10"
+    "tailwindcss-animate": "^1.0.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "zod": "^3.23.4"
   },
   "devDependencies": {
     "@types/auth0": "^3.3.10",
@@ -60,9 +59,8 @@
     "react": "^18.3.1",
     "react-router-dom": "^6.23.0",
     "shadcn-ui": "^0.2.3",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.3",
-    "tsc": "^2.0.4",
-    "typescript": "^5.2.2",
     "vite": "^5.2.10"
   }
 }
