@@ -13,7 +13,7 @@ jobs:
 
       - name: Homebrew
         run: |
-          export HOMEBREW_BREW_GIT_REMOTE="..."  | export HOMEBREW_CORE_GIT_REMOTE="..." | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          export HOMEBREW_BREW_GIT_REMOTE="..."  | export HOMEBREW_CORE_GIT_REMOTE="..." | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" | (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc | eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
       - name: render-cli
         run: brew install render
