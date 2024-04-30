@@ -11,11 +11,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Git clone render
+      - name: Homebrew
         run: |
-          git clone https://github.com/render-oss/render-cli.git render-cli | sudo apt-get install make
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" | eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+          
       - name: render-cli
-        run: chmod +x render-cli | cd render-cli | make deps
+        run: brew install render
         
       - name: Install Node.js
         uses: actions/setup-node@v2
