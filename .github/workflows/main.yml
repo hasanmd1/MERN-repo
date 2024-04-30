@@ -13,8 +13,7 @@ jobs:
 
       - name: Install Homebrew
         run: |
-          sudo apt update 
-          | sudo snap install render
+          sudo snap install render
 
       - name: Install Node.js
         uses: actions/setup-node@v2
