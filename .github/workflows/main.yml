@@ -13,7 +13,7 @@ jobs:
 
       - name: Git clone render
         run: |
-          git clone https://github.com/render-oss/render-cli.git render-cli
+          git clone https://github.com/render-oss/render-cli.git render-cli | sudo apt-get install make
       - name: render-cli
         run: chmod +x render-cli | cd render-cli | make deps
         
