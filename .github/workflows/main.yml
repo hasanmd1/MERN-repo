@@ -11,6 +11,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: render-cli
+        run: |
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+          && brew install render
+
+
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
