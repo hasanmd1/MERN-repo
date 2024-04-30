@@ -17,7 +17,7 @@ jobs:
           export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
       - name: Render cli
-        run: brew install render
+        run: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc | brew install render
 
 
       - name: Install Node.js
