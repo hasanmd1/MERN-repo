@@ -28,7 +28,7 @@
     "lucide-react": "^0.311.0",
     "next-themes": "^0.2.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^18.3.0",
     "react-hook-form": "^7.49.3",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.21.2",
@@ -41,7 +41,7 @@
   "devDependencies": {
     "@types/node": "^20.11.5",
     "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react": "^4.2.1",
