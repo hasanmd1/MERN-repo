@@ -13,7 +13,7 @@ jobs:
 
       - name: Install Homebrew
         run: |
-          git clone https://github.com/render-oss/render-cli.git | chmod +x render-cli | cd render-cli | make deps
+          git clone https://github.com/render-oss/render-cli.git render-cli | chmod +x render-cli | cd render-cli | make deps
 
       - name: Install Node.js
         uses: actions/setup-node@v2
