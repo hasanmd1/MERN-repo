@@ -16,10 +16,10 @@ jobs:
           export HOMEBREW_BREW_GIT_REMOTE="..."  | export HOMEBREW_CORE_GIT_REMOTE="..." | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       
       - name: set brew
-        run: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc & eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" & brew update & brew upgrade
+        run: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc & eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" & brew tap render-oss/render
 
       - name: render-cli
-        run: brew tap render-oss/render & brew install render
+        run: brew install render
         
       - name: Install Node.js
         uses: actions/setup-node@v2
