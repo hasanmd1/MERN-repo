@@ -11,13 +11,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Homebrew
+      - name: Install Homebrew
         run: |
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-          export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 
       - name: Render cli
-        run: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc | brew install render
+        run: brew install render
 
 
       - name: Install Node.js
