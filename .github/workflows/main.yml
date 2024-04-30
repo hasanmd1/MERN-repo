@@ -15,7 +15,7 @@ jobs:
         run: |
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-          && sudo brew install render
+          && sudo apt-get install build-essential && sudo brew install render
 
 
       - name: Install Node.js
