@@ -50,7 +50,7 @@ jobs:
 
         run: |
           cd LetsOrder/backend
-          render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
+          render deploys -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
 
       - name: Deploy Frontend to Render.com
         env:
@@ -62,4 +62,4 @@ jobs:
           VITE_AUTH0_DOMAIN: ${{ secrets.VITE_AUTH0_DOMAIN }}
         run: |
           cd LetsOrder/frontend
-          render deploy -- --branch=main --non-interactive --api-key=$RENDER_API_KEY
+          render deploys --branch=main --non-interactive --api-key=$RENDER_API_KEY
