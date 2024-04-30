@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm install
+        run: npm install --prefix LetsOrder/backend && npm install --prefix LetsOrder/frontend
 
       - name: Build Backend
         run: npm run build --prefix LetsOrder/backend
