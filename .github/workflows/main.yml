@@ -16,7 +16,7 @@ jobs:
           export HOMEBREW_BREW_GIT_REMOTE="..."  | export HOMEBREW_CORE_GIT_REMOTE="..." | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       
       - name: set brew
-        run: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc & eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+        run: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/runner/.bashrc & eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" & brew update & brew upgrade
 
       - name: render-cli
         run: brew install render
