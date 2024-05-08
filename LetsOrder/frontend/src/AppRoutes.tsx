@@ -27,7 +27,7 @@ const AppRoutes = () => {
                     path="/manage-restaurant"
                     element={
                         <Layout>
-                            <ManageRestaurantPage  onSave={() => {}}/>
+                            <ManageRestaurantPage />
                         </Layout>
                     }
 

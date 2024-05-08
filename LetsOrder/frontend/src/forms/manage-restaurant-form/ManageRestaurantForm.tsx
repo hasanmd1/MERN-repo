@@ -60,7 +60,7 @@ type Props = {
     isLoading: boolean;
 }
 // eslint-disable-next-line no-empty-pattern
-const ManageRestaurantForm = ({onSave, isLoading, restaurant}: Props) => {
+const ManageRestaurantForm = ({restaurant, isLoading, onSave}: Props) => {
     const form = useForm<restaurantFormData>({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -72,6 +72,7 @@ const ManageRestaurantForm = ({onSave, isLoading, restaurant}: Props) => {
             cuisines: [],
             menuItems: [{ name: "", price: 0 }],
             imageFile: null,
+            imageUrl: "",
         },
     });
 
@@ -90,6 +91,7 @@ const ManageRestaurantForm = ({onSave, isLoading, restaurant}: Props) => {
             ...restaurant,
             deliveryFee: deliveryFeeFormatted,
             menuItems: menuItemsFormatted,
+            imageFile: null,
         }
 
         form.reset(updatedRestaurant);
@@ -103,7 +105,7 @@ const ManageRestaurantForm = ({onSave, isLoading, restaurant}: Props) => {
 
         formData.append("restaurantName", formDataJson.restaurantName);
 
-        formData.append("city", formDataJson.restaurantName);
+        formData.append("city", formDataJson.city);
 
         formData.append("country", formDataJson.country);
 
