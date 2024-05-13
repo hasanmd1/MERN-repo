@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="user authentication and database update fixed">
-      <change afterPath="$PROJECT_DIR$/frontend/src/api/RestaurantApi.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PaginationSelector.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/SearchBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/SearchResultInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LetsOrder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LetsOrder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024,_12_37_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_2024__12_37__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/Hero-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/auth/ProtectedRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/auth/ProtectedRoute.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MobileNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MobileNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MobileNavLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MobileNavLinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/UsernameMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/UsernameMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/forms/user-profile-form/UserProfileForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/forms/user-profile-form/UserProfileForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types.ts" afterDir="false" />
+    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="Restaurant Search Implementation">
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/RestaurantController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/RestaurantController.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +40,12 @@
     &quot;assignee&quot;: &quot;hasanmd1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects.git&quot;,
-    &quot;accountId&quot;: &quot;2fd8995b-cd1c-4a3a-9e95-f20c5513873f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects.git",
+    "accountId": "5d8ed558-5c1e-4640-b36a-6547b71095f5"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -171,7 +143,7 @@
       <workItem from="1715263851409" duration="5772000" />
       <workItem from="1715281068920" duration="9786000" />
       <workItem from="1715450522488" duration="12180000" />
-      <workItem from="1715607281658" duration="1571000" />
+      <workItem from="1715607281658" duration="1947000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -525,7 +497,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714473917641</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Restaurant Search Implementation">
+      <option name="closed" value="true" />
+      <created>1715609128805</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1715609128805</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +527,8 @@
     <MESSAGE value="Setting Authentication and homepage" />
     <MESSAGE value="User authentication and UI changes fixed with shadcn-ui" />
     <MESSAGE value="user authentication and database update fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="user authentication and database update fixed" />
+    <MESSAGE value="Restaurant Search Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restaurant Search Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

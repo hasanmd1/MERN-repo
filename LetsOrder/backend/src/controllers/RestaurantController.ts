@@ -11,7 +11,6 @@ const searchRestaurants = async (req: Request, res: Response) => {
         const sortOptions = req.query.sortOptions as string || 'lastUpdated';
         const page = parseInt(req.query.page as string) || 1;
 
-        console.log("-",city, "-",searchQuery, "-",selectedCuisines, "-",sortOptions, "-",page);
         let query: any = {}
 
         query['city'] = new RegExp(city, 'i');
@@ -47,7 +46,6 @@ const searchRestaurants = async (req: Request, res: Response) => {
         const pageSize = 10;
         const skip = (page - 1) * pageSize;
 
-        console.log("lol",query);
 
         const restaurant = await Restaurant
             .find(query)
