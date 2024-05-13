@@ -1,9 +1,10 @@
-import hero2 from '../assets/Hero-2.webp';
-import hero from '../assets/hero.png';
+import hero2 from '../assets/Hero-2.jpeg';
+import hero3 from '../assets/hero-3.webp';
+import hero from '../assets/hero.jpeg';
 import {useState, useEffect} from "react";
 
 const Hero = () => {
-    const images = [hero, hero2];
+    const images = [hero, hero2, hero3];
     const[currentImageIndex, setCurrentImage] = useState(0);
 
     useEffect(() => {

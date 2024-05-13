@@ -23,6 +23,15 @@ export type Restaurant = {
     estimatedDeliveryTime: number;
     cuisines: string[];
     menuItems: MenuItem[];
-    imageFile: string;
+    imageUrl: string;
     lastUpdated: string;
+};
+
+export type RestaurantSearchResult = {
+    data: Restaurant[];
+    pagination: {
+        total: number;
+        page: number;
+        pages: number;
+    }
 }
