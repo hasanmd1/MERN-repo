@@ -8,6 +8,7 @@ type Props = {
 const Auth0ProviderWithNavigate = ({children}: Props) => {
     const navigate = useNavigate();
 
+
     const domain = import.meta.env.VITE_AUTH0_DOMAIN;
     const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID;
     const redirectUri = import.meta.env.VITE_AUTH0_CALLBACK_URL;
@@ -19,8 +20,9 @@ const Auth0ProviderWithNavigate = ({children}: Props) => {
 
     const onRedirectCallback = (appState?: AppState, user?: User) => {
         console.log(appState, user);
-        navigate("/auth-callback")
+        navigate(appState?.returnTo || "/auth-callback")
     }
+
     return(
         <Auth0Provider
             domain={domain}
@@ -28,8 +30,11 @@ const Auth0ProviderWithNavigate = ({children}: Props) => {
             authorizationParams={{
                 redirect_uri: redirectUri,
                 audience: audience,
-        }}
-        onRedirectCallback={onRedirectCallback}>
+            }}
+            onRedirectCallback={onRedirectCallback}
+            useRefreshTokens
+            cacheLocation="localstorage"
+        >
             {children}
         </Auth0Provider>
     )

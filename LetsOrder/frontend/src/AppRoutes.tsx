@@ -6,6 +6,8 @@ import UserProfilePage from "@/pages/UserProfilePage.tsx";
 import ProtectedRoute from "@/auth/ProtectedRoute.tsx";
 import ManageRestaurantPage from "@/pages/ManageRestaurantPage.tsx";
 import SearchPage from "@/pages/SearchPage.tsx";
+import DetailPage from "@/pages/DetailPage.tsx";
+import PaymentConfirmationPage from "@/pages/PaymentConfirmationPage.tsx";
 
 
 const AppRoutes = () => {
@@ -21,6 +23,22 @@ const AppRoutes = () => {
                     element={
                         <Layout>
                             <UserProfilePage/>
+                        </Layout>
+                    }
+                />
+                <Route
+                    path="/orders"
+                    element={
+                        <Layout>
+                            <p>Orders page</p>
+                        </Layout>
+                    }
+                />
+                <Route
+                    path="/orders/details/:orderId"
+                    element={
+                        <Layout>
+                            <PaymentConfirmationPage/>
                         </Layout>
                     }
                 />
@@ -45,6 +63,13 @@ const AppRoutes = () => {
                     <SearchPage/>
                 </Layout>
             }/>
+            <Route
+                path="/detail/:restaurantId"
+                element={
+                    <Layout showHero={false}>
+                        <DetailPage/>
+                    </Layout>
+                }/>
             <Route
                 path="*"
                 element={<Navigate to="/"/>}
