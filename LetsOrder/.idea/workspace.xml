@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="Restaurant Search Implementation">
-      <change afterPath="$PROJECT_DIR$/backend/src/controllers/OrderController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/routes/OrderRoute.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/CheckoutButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/RestaurantInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/DetailPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/controllers/RestaurantController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/RestaurantController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/RestaurantRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/RestaurantRoute.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+    <list default="true" id="838d91f2-e325-4510-bf96-539042642796" name="Changes" comment="Restaurant Payment Implemented">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrderItemCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrderStatusDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/OrderStatusHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/config/order-status-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/MyRestaurantController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/MyRestaurantController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/OrderController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/OrderController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models/order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/order.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/MyRestaurantRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/MyRestaurantRoute.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/OrderRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/OrderRoute.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/AppRoutes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/RestaurantApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/RestaurantApi.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/auth/Auth0ProviderWithNavigate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/auth/ProtectedRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/auth/ProtectedRoute.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/forms/user-profile-form/UserProfileForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/forms/user-profile-form/UserProfileForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/AuthCallbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/AuthCallbackPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/MyRestaurantApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/MyRestaurantApi.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/OrderApi.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/OrderApi.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MobileNavLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MobileNavLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ManageRestaurantPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ManageRestaurantPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/PaymentConfirmationPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/OrderStatusPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <workItem from="1715450522488" duration="12180000" />
       <workItem from="1715607281658" duration="18219000" />
       <workItem from="1715727229635" duration="461000" />
-      <workItem from="1715798835740" duration="18439000" />
+      <workItem from="1715798835740" duration="28317000" />
     </task>
     <task id="LOCAL-00001" summary="Setting routes and layouts">
       <option name="closed" value="true" />
@@ -534,7 +531,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715609417732</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Restaurant Payment Implemented">
+      <option name="closed" value="true" />
+      <created>1716061472636</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1716061472636</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Restaurant Payment Implemented">
+      <option name="closed" value="true" />
+      <created>1716061496599</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1716061496599</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +570,8 @@
     <MESSAGE value="User authentication and UI changes fixed with shadcn-ui" />
     <MESSAGE value="user authentication and database update fixed" />
     <MESSAGE value="Restaurant Search Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restaurant Search Implementation" />
+    <MESSAGE value="Restaurant Payment Implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restaurant Payment Implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
