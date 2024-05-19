@@ -7,7 +7,7 @@ import ProtectedRoute from "@/auth/ProtectedRoute.tsx";
 import ManageRestaurantPage from "@/pages/ManageRestaurantPage.tsx";
 import SearchPage from "@/pages/SearchPage.tsx";
 import DetailPage from "@/pages/DetailPage.tsx";
-import PaymentConfirmationPage from "@/pages/PaymentConfirmationPage.tsx";
+import OrderStatusPage from "@/pages/OrderStatusPage.tsx";
 
 
 const AppRoutes = () => {
@@ -35,10 +35,10 @@ const AppRoutes = () => {
                     }
                 />
                 <Route
-                    path="/orders/details/:orderId"
+                    path="/order-status"
                     element={
                         <Layout>
-                            <PaymentConfirmationPage/>
+                            <OrderStatusPage/>
                         </Layout>
                     }
                 />

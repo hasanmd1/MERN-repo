@@ -52,7 +52,8 @@ const orderSchema = new mongoose.Schema({
             "paid",
             "inProgress",
             "outForDelivery",
-            "delivered"],
+            "delivered"
+        ],
     },
     createdAt: {
         type: Date,
