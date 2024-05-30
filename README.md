@@ -43,7 +43,8 @@ This project is a responsive web application that allows users to browse through
 ### Prerequisites
 - Node.js
 - npm
-These should be pre-installed on your device.
+
+\n These should be pre-installed on your device.
 
 ### Installing
 
