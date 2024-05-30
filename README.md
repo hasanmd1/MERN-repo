@@ -11,8 +11,15 @@ This project is a responsive web application that allows users to browse through
 - Creating a payment request which will be executed by payment gateway, after payment webhook request to confirm status of payment.
 - Hosted on a cloud platform
 
-## Cloud Hosting
-Visit this link to view the web application - https://lets-order-frontend.onrender.com
+## Usage
+
+### Local device hosting
+- First see installation and install in your local device.
+- Once the development servers (frontend and backend) is running, you can view the application by navigating to http://localhost:3000 in your web browser. Register an account, browse the menu, add items to your cart, and place an order.
+
+### Cloud Hosting
+- Visit this link to view the web application - https://lets-order-frontend.onrender.com
+- Here you can create an account
 
 ## Screenshots
 ![Home Page](screenshots/homepage.png)
@@ -20,12 +27,15 @@ Visit this link to view the web application - https://lets-order-frontend.onrend
 ![Contact Page](screenshots/contact.png)
 
 ## Technologies Used
-- React (Typesript)
-- MongoDB
+- React (Typesript) as Frontend
+- Node.js as Backend
+- MongoDB as Data Storage (for this only database is used)
 - Tailwind CSS (a framework of CSS)
 - React Router
 - Express
-- Render Cli
+- Render Cli for cloud hosting
+- Auth0 for authentication
+- Stripe as payment gateway
 
 ## Installation
 
@@ -44,4 +54,12 @@ cd portfolio-website
 npm install
 
 npm start
+```
 
+## Contribution
+This project does not allow any new contribution.
+
+## Contact
+- Name: Md Zahid Hasan
+- Email: mdzhasancz@gmail.com
+- GitHub: https://github.com/hasanmd1
