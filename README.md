@@ -14,7 +14,7 @@ This project is a responsive web application that allows users to browse through
 ## How to Run the web application
 
 ### Local device hosting
-- First see installation and install in your local device.
+- First see [installation]https://github.com/hasanmd1 and install in your local device.
 - Once the development servers (frontend and backend) is running, you can view the application by navigating to http://localhost:3000 in your web browser. Register an account, browse the menu, add items to your cart, and place an order.
 
 ### Cloud Hosting
