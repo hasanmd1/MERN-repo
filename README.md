@@ -3,16 +3,16 @@
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
-- [How to Run the web application](#how to Run the web application)
-- Local device hosting
-- Cloud Hosting
+- [How to Run the web application](#how-to-run-the-web-application)
+  - [Local device hosting](#local-device-hosting)
+  - [Cloud Hosting](#cloud-hosting)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
   - [Installing](#installing)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [Contact](#contact)
 
 ## Description
@@ -73,6 +73,9 @@ npm install
 
 npm start
 ```
+
+## License
+See [License.md](https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects/blob/main/License.md)
 
 ## Contribution
 This project does not allow any new contribution.
