@@ -1,1 +1,1 @@
-This project is licensed under the MIT License.
+See Each project to view related licenses
