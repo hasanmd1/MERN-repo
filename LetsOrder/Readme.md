@@ -85,7 +85,7 @@ npm run dev
 ```
 
 ## License
-See [License.md](https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects/blob/main/License.md)
+See [License.md](https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects/blob/main/LetsOrder/License.md)
 
 ## Contribution
 This project does not allow any new contribution.
