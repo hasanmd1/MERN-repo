@@ -11,7 +11,7 @@ This project is a responsive web application that allows users to browse through
 - Creating a payment request which will be executed by payment gateway, after payment webhook request to confirm status of payment.
 - Hosted on a cloud platform
 
-## Usage
+## How to Run the web application
 
 ### Local device hosting
 - First see installation and install in your local device.
@@ -36,6 +36,7 @@ This project is a responsive web application that allows users to browse through
 - Render Cli for cloud hosting
 - Auth0 for authentication
 - Stripe as payment gateway
+- Postman for backend API testing
 
 ## Installation
 
