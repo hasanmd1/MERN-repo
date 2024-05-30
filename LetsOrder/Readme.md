@@ -34,7 +34,7 @@ This project is a responsive web application that allows users to browse through
 
 ### Cloud Hosting
 - Visit this link to view the web application - https://lets-order-frontend.onrender.com
-- Here you can create an account
+- Here you can create an account, seach food, manage your cart, order food
 
 ## Screenshots
 ![Home Page](screenshots/homepage.png)
