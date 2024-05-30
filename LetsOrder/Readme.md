@@ -67,11 +67,21 @@ These should be pre-installed on your device.
 ```bash
 git clone https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects.git
 
-cd portfolio-website
+cd frontend
 
 npm install
 
-npm start
+npm run dev
+```
+
+In a new terminal,
+
+```bash 
+cd backend
+
+npm install
+
+npm run dev
 ```
 
 ## License
