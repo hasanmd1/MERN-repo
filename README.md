@@ -1,12 +1,13 @@
 # Food Ordering Web Application
 
 ## Description
-This project is a 
+This project is a responsive web application that allows users to browse through a menu, add items to their cart, and place orders online. It features user authentication, real-time updates, and an intuitive user interface.
 
 ## Features
 - Search Food, Filtering based on location, restaurant name, food item types.
 - Creating restaurant and managing restaurant,
-- Creating orders, viewing status of order and managing orders,
+- Add items to the cart,
+- Creating orders, viewing real-time status of orders and managing orders,
 - Creating a payment request which will be executed by payment gateway, after payment webhook request to confirm status of payment.
 
 ## Screenshots
@@ -31,15 +32,11 @@ These should be pre-installed on your device.
 ### Installing
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/hasanmd1/MongoDB-Express-React-Node.js-projects.git
 
-# Navigate to the project directory
 cd portfolio-website
 
-# Install dependencies
 npm install
 
-# Start the development server
 npm start
 
