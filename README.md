@@ -9,6 +9,10 @@ This project is a responsive web application that allows users to browse through
 - Add items to the cart,
 - Creating orders, viewing real-time status of orders and managing orders,
 - Creating a payment request which will be executed by payment gateway, after payment webhook request to confirm status of payment.
+- Hosted on a cloud platform
+
+## Cloud Hosting
+Visit this link to view the web application - https://lets-order-frontend.onrender.com
 
 ## Screenshots
 ![Home Page](screenshots/homepage.png)
