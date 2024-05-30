@@ -1,5 +1,20 @@
 # Food Ordering Web Application
 
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [How to Run the web application](#how to Run the web application)
+- Local device hosting
+- Cloud Hosting
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
+
 ## Description
 This project is a responsive web application that allows users to browse through a menu, add items to their cart, and place orders online. It features user authentication, real-time updates, and an intuitive user interface.
 
