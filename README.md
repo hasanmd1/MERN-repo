@@ -25,6 +25,7 @@ Visit this link to view the web application - https://lets-order-frontend.onrend
 - Tailwind CSS (a framework of CSS)
 - React Router
 - Express
+- Render Cli
 
 ## Installation
 
