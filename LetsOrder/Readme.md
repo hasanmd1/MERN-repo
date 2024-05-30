@@ -92,5 +92,5 @@ This project does not allow any new contribution.
 
 ## Contact
 - Name: Md Zahid Hasan
-- Email: mdzhasancz@gmail.com
+- Email: [Email](mdzhasancz@gmail.com)
 - GitHub: [GitHub Profile](https://github.com/hasanmd1)
